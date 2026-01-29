@@ -1,17 +1,17 @@
 import "./index.css";
 import { Composition } from "remotion";
-import { MyComposition } from "./Composition";
+import { MozartSonataFacile } from "./videos/01-MozartSonataFacile";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        id="MyComp"
-        component={MyComposition}
-        durationInFrames={60}
+        id="01-MozartSonataFacile"
+        component={MozartSonataFacile}
+        durationInFrames={26 * 30} // 26 seconds at 30fps
         fps={30}
-        width={1280}
-        height={720}
+        width={1920}
+        height={1080}
       />
     </>
   );

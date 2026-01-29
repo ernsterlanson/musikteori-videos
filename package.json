@@ -7,11 +7,12 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.414",
+    "@remotion/tailwind-v4": "4.0.414",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.414",
-    "@remotion/tailwind-v4": "4.0.414",
-    "tailwindcss": "4.0.0"
+    "tailwindcss": "4.0.0",
+    "vexflow": "^5.0.0"
   },
   "devDependencies": {
     "@remotion/eslint-config-flat": "4.0.414",
