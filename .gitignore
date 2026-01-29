@@ -1,7 +1,57 @@
+# Dependencies
 node_modules
+
+# Build output
 dist
+out
+
+# OS files
 .DS_Store
+
+# Environment variables
 .env
 
-# Ignore the output video from Git but not videos you import into src/.
-out
+# Rendered videos (output)
+output/
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Large audio files (use Git LFS or external storage for these)
+public/audio/*.mp3
+public/audio/*.wav
+public/audio/*.m4a
+public/audio/*.aac
+# Exception: Keep small audio files for reference
+!public/audio/*-sample.mp3
+
+# Large image files
+public/images/**/*.psd
+public/images/**/*.ai
+*.tif
+*.tiff
+
+# Font source files (keep compiled fonts, ignore sources)
+public/fonts/**/*.otf.zip
+public/fonts/**/*.ttf.zip
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Remotion cache
+.remotion/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
